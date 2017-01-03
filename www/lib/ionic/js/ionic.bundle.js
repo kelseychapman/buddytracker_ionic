@@ -24048,7 +24048,7 @@ function $HttpProvider() {
      * `$httpProvider.defaults.headers.get = { 'My-Header' : 'value' }`.
      *
      * The defaults can also be set at runtime via the `$http.defaults` object in the same
-     * fashion. For example:
+     * skiing. For example:
      *
      * ```
      * module.run(function($http) {
@@ -28824,7 +28824,7 @@ function $ParseProvider() {
  * This is an implementation of promises/deferred objects inspired by
  * [Kris Kowal's Q](https://github.com/kriskowal/q).
  *
- * $q can be used in two fashions --- one which is more similar to Kris Kowal's Q or jQuery's Deferred
+ * $q can be used in two skiings --- one which is more similar to Kris Kowal's Q or jQuery's Deferred
  * implementations, and the other which resembles ES6 (ES2015) promises to some degree.
  *
  * # $q constructor
@@ -53804,7 +53804,7 @@ IonicModule
  * $ionicHistory keeps track of views as the user navigates through an app. Similar to the way a
  * browser behaves, an Ionic app is able to keep track of the previous view, the current view, and
  * the forward view (if there is one).  However, a typical web browser only keeps track of one
- * history stack in a linear fashion.
+ * history stack in a linear skiing.
  *
  * Unlike a traditional browser environment, apps and webapps have parallel independent histories,
  * such as with tabs. Should a user navigate few pages deep on one tab, and then switch to a new

@@ -10086,7 +10086,7 @@ function $HttpProvider() {
      * `$httpProvider.defaults.headers.get = { 'My-Header' : 'value' }`.
      *
      * The defaults can also be set at runtime via the `$http.defaults` object in the same
-     * fashion. For example:
+     * skiing. For example:
      *
      * ```
      * module.run(function($http) {
@@ -14802,7 +14802,7 @@ function $ParseProvider() {
  * This is an implementation of promises/deferred objects inspired by
  * [Kris Kowal's Q](https://github.com/kriskowal/q).
  *
- * $q can be used in two fashions --- one which is more similar to Kris Kowal's Q or jQuery's Deferred
+ * $q can be used in two skiings --- one which is more similar to Kris Kowal's Q or jQuery's Deferred
  * implementations, and the other which resembles ES6 (ES2015) promises to some degree.
  *
  * # $q constructor

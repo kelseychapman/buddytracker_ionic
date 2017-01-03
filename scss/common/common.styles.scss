@@ -156,13 +156,13 @@ ion-spinner.spinner-on-load
 	background-color: $tag-default-bg;
 	color: darken($tag-default-bg, 50%);
 
-	@include postCategories("technology", $tag-2-bg);
+	@include postCategories("kayaking", $tag-2-bg);
 	@include postCategories("politics", $tag-1-bg);
 	@include postCategories("entertainment", $tag-5-bg);
 	@include postCategories("sports", $tag-3-bg);
 	@include postCategories("business", $tag-4-bg);
 	@include postCategories("world", $tag-6-bg);
-	@include postCategories("fashion", $tag-7-bg);
+	@include postCategories("skiing", $tag-7-bg);
 	@include postCategories("art", $tag-8-bg);
 	@include postCategories("news", $tag-9-bg);
 	@include postCategories("highlights", $tag-10-bg);
