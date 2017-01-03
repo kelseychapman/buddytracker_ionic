@@ -11,24 +11,6 @@
     },
     {
       "image": "img/sample_images/4.jpeg"
-    },
-    {
-      "image": "img/sample_images/5.jpeg"
-    },
-    {
-      "image": "img/sample_images/6.jpeg"
-    },
-    {
-      "image": "img/sample_images/7.jpeg"
-    },
-    {
-      "image": "img/sample_images/8.jpeg"
-    },
-    {
-      "image": "img/sample_images/9.jpeg"
-    },
-    {
-      "image": "img/sample_images/10.jpeg"
     }
   ],
   "users_profile_pictures": [
@@ -43,12 +25,6 @@
     },
     {
       "image": "img/sample_images/people/4.jpeg"
-    },
-    {
-      "image": "img/sample_images/people/5.jpeg"
-    },
-    {
-      "image": "img/sample_images/people/6.jpeg"
     }
   ],
   "users_connections": [
@@ -116,154 +92,9 @@
       "about": "Do esse culpa occaecat reprehenderit irure mollit.",
       "email": "kerry.rasmussen@gmail.com",
       "website": "http://www.google.com"
-    },
-    {
-      "id": 5,
-      "name": {
-        "first": "Sarah",
-        "last": "Frederick"
-      },
-      "username": "sFrederick",
-      "picture": "img/sample_images/people/6.jpg",
-      "about": "Adipisicing eu deserunt consequat non officia anim ut cupidatat.",
-      "email": "sarah.frederick@gmail.com",
-      "website": "http://www.google.com"
     }
   ],
-  "following": [
-    {
-      "userId": 2,
-      "followsId": 0
-    },
-    {
-      "userId": 5,
-      "followsId": 2
-    },
-    {
-      "userId": 4,
-      "followsId": 5
-    },
-    {
-      "userId": 1,
-      "followsId": 0
-    },
-    {
-      "userId": 5,
-      "followsId": 4
-    },
-    {
-      "userId": 5,
-      "followsId": 2
-    },
-    {
-      "userId": 4,
-      "followsId": 0
-    },
-    {
-      "userId": 1,
-      "followsId": 5
-    },
-    {
-      "userId": 5,
-      "followsId": 3
-    },
-    {
-      "userId": 5,
-      "followsId": 3
-    },
-    {
-      "userId": 3,
-      "followsId": 2
-    },
-    {
-      "userId": 3,
-      "followsId": 1
-    },
-    {
-      "userId": 2,
-      "followsId": 0
-    },
-    {
-      "userId": 0,
-      "followsId": 5
-    },
-    {
-      "userId": 5,
-      "followsId": 3
-    },
-    {
-      "userId": 2,
-      "followsId": 4
-    },
-    {
-      "userId": 1,
-      "followsId": 0
-    },
-    {
-      "userId": 2,
-      "followsId": 0
-    },
-    {
-      "userId": 4,
-      "followsId": 5
-    },
-    {
-      "userId": 1,
-      "followsId": 0
-    },
-    {
-      "userId": 4,
-      "followsId": 5
-    },
-    {
-      "userId": 5,
-      "followsId": 1
-    },
-    {
-      "userId": 4,
-      "followsId": 0
-    },
-    {
-      "userId": 2,
-      "followsId": 5
-    },
-    {
-      "userId": 4,
-      "followsId": 1
-    },
-    {
-      "userId": 2,
-      "followsId": 0
-    },
-    {
-      "userId": 3,
-      "followsId": 2
-    },
-    {
-      "userId": 4,
-      "followsId": 3
-    },
-    {
-      "userId": 0,
-      "followsId": 1
-    },
-    {
-      "userId": 5,
-      "followsId": 0
-    },
-    {
-      "userId": 5,
-      "followsId": 3
-    },
-    {
-      "userId": 3,
-      "followsId": 4
-    },
-    {
-      "userId": 5,
-      "followsId": 4
-    }
-  ],
+
   "users_pictures": [
     {
       "userId": 3,
@@ -280,154 +111,7 @@
     {
       "userId": 0,
       "picture": "img/sample_images/users-pictures/4.jpg"
-    },
-    {
-      "userId": 1,
-      "picture": "img/sample_images/users-pictures/5.jpg"
-    },
-    {
-      "userId": 4,
-      "picture": "img/sample_images/users-pictures/6.jpg"
-    },
-    {
-      "userId": 0,
-      "picture": "img/sample_images/users-pictures/7.jpg"
-    },
-    {
-      "userId": 1,
-      "picture": "img/sample_images/users-pictures/8.jpg"
-    },
-    {
-      "userId": 1,
-      "picture": "img/sample_images/users-pictures/9.jpg"
-    },
-    {
-      "userId": 1,
-      "picture": "img/sample_images/users-pictures/10.jpg"
-    },
-    {
-      "userId": 3,
-      "picture": "img/sample_images/users-pictures/11.jpg"
-    },
-    {
-      "userId": 3,
-      "picture": "img/sample_images/users-pictures/12.jpg"
-    },
-    {
-      "userId": 4,
-      "picture": "img/sample_images/users-pictures/13.jpg"
-    },
-    {
-      "userId": 0,
-      "picture": "img/sample_images/users-pictures/14.jpg"
-    },
-    {
-      "userId": 4,
-      "picture": "img/sample_images/users-pictures/15.jpg"
-    },
-    {
-      "userId": 3,
-      "picture": "img/sample_images/users-pictures/16.jpg"
-    },
-    {
-      "userId": 0,
-      "picture": "img/sample_images/users-pictures/17.jpg"
-    },
-    {
-      "userId": 1,
-      "picture": "img/sample_images/users-pictures/18.jpg"
-    },
-    {
-      "userId": 4,
-      "picture": "img/sample_images/users-pictures/19.jpg"
-    },
-    {
-      "userId": 5,
-      "picture": "img/sample_images/users-pictures/20.jpg"
-    },
-    {
-      "userId": 4,
-      "picture": "img/sample_images/users-pictures/21.jpg"
-    },
-    {
-      "userId": 1,
-      "picture": "img/sample_images/users-pictures/22.jpg"
-    },
-    {
-      "userId": 0,
-      "picture": "img/sample_images/users-pictures/23.jpg"
-    },
-    {
-      "userId": 5,
-      "picture": "img/sample_images/users-pictures/24.jpg"
-    },
-    {
-      "userId": 1,
-      "picture": "img/sample_images/users-pictures/25.jpg"
-    },
-    {
-      "userId": 1,
-      "picture": "img/sample_images/users-pictures/26.jpg"
-    },
-    {
-      "userId": 0,
-      "picture": "img/sample_images/users-pictures/27.jpg"
-    },
-    {
-      "userId": 2,
-      "picture": "img/sample_images/users-pictures/28.jpg"
-    },
-    {
-      "userId": 4,
-      "picture": "img/sample_images/users-pictures/29.jpg"
-    },
-    {
-      "userId": 1,
-      "picture": "img/sample_images/users-pictures/30.jpg"
-    },
-    {
-      "userId": 2,
-      "picture": "img/sample_images/users-pictures/31.jpg"
-    },
-    {
-      "userId": 0,
-      "picture": "img/sample_images/users-pictures/32.jpg"
     }
-  ],
-  "people_suggestions": [
-    {
-      "userId": 1,
-      "connection": "Instagram follower"
-    },
-    {
-      "userId": 2,
-      "connection": "Instagram follower"
-    },
-    {
-      "userId": 3,
-      "connection": "Facebook friend"
-    }
-  ],
-  "people_you_may_know": [
-    {
-      "userId": 4,
-      "mutual_friends": 16
-    },
-    {
-      "userId": 5,
-      "mutual_friends": 3
-    },
-    {
-      "userId": 2,
-      "mutual_friends": 3
-    }
-  ],
-  "possible_trends": [
-    "movies",
-    "australian open",
-    "social action",
-    "cute",
-    "arts"
   ],
   "possible_categories": [
     "highlights",
@@ -439,20 +123,6 @@
     "entertainment",
     "politics",
     "technology"
-  ],
-  "trends": [
-    {
-      "id": 0,
-      "name": "Oscars",
-      "slug": "oscars",
-      "image": "img/sample_images/trends/oscars.jpg"
-    },
-    {
-      "id": 1,
-      "name": "US Open",
-      "slug": "us-open",
-      "image": "img/sample_images/trends/us-open.jpg"
-    }
   ],
   "categories": [
     {
