@@ -1,0 +1,14 @@
+{
+  "name": "buddytracker",
+  "app_id": "94f3432d",
+  "gulpStartupTasks": [
+    "default",
+    "sass",
+    "watch"
+  ],
+  "watchPatterns": [
+    "www/**/*",
+    "!www/lib/**/*"
+  ],
+  "documentRoot": "www"
+}
