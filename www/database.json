@@ -201,9 +201,6 @@
     "arts"
   ],
   "possible_categories": [
-    "highlights",
-    "news",
-    "business",
     "sports",
     "skiing",
     "world",
@@ -227,12 +224,6 @@
   ],
   "categories": [
     {
-      "id": 0,
-      "name": "politics",
-      "slug": "politics",
-      "image": "img/images/categories/politics.jpg"
-    },
-    {
       "id": 1,
       "name": "kayaking",
       "slug": "kayaking",
@@ -240,9 +231,9 @@
     },
     {
       "id": 2,
-      "name": "sports",
-      "slug": "sports",
-      "image": "img/images/categories/sports.jpg"
+      "name": "skiing",
+      "slug": "skiing",
+      "image": "img/images/categories/skiing.jpg"
     },
     {
       "id": 3,
@@ -267,24 +258,6 @@
       "name": "skiing",
       "slug": "skiing",
       "image": "img/images/categories/skiing.jpg"
-    },
-    {
-      "id": 7,
-      "name": "art",
-      "slug": "art",
-      "image": "img/images/categories/art.jpg"
-    },
-    {
-      "id": 8,
-      "name": "news",
-      "slug": "news",
-      "image": "img/images/categories/news.jpg"
-    },
-    {
-      "id": 9,
-      "name": "highlights",
-      "slug": "highlights",
-      "image": "img/images/categories/highlights.jpg"
     }
   ],
   "posts": [

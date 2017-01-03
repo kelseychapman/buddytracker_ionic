@@ -23,15 +23,21 @@
         </div>
       </div>
       <div class="bottom-content row">
-        <div class="col col-bottom">
-          <a class="create-account button-large button button-block" ui-sref="create-account">
-            Create an account
+        <div class="col">
+          <a class="facebook-sign-in button-small button button-block" ng-click="facebookSignIn()">
+            Sign In with Facebook
           </a>
-          <a class="have-account button button-clear button-block" ui-sref="welcome-back">
-            Already have an account?
-          </a>
+          <div class="col col-bottom">
+            <a class="create-account button-small button button-block" ui-sref="create-account">
+              Create an account
+            </a>
+            <a class="have-account button button-clear button-block" ui-sref="welcome-back">
+              Already have an account?
+            </a>
+          </div>
         </div>
       </div>
     </div>
+
   </ion-content>
 </ion-view>

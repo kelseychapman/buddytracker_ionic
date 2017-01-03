@@ -9879,10 +9879,10 @@ a.button {
 
 ion-nav-bar ion-header-bar,
 ion-modal-view ion-header-bar {
-  background-color: #375E97 !important;
-  background: #375E97 !important;
-  border: none !important;
-  background-size: 0px !important; }
+  ackground-color: #971109 !important;
+background: #971109 !important;
+border: none !important;
+background-size: 0px !important; }
   ion-nav-bar ion-header-bar .title,
   ion-modal-view ion-header-bar .title {
     text-transform: capitalize; }
@@ -11254,9 +11254,8 @@ ion-spinner.spinner-on-load {
       padding-top: 20vh; }
     .welcome-view .top-content .app-logo {
       font-size: 50px;
-      font-family: cursive;
+      font-family: 'Pompiere', cursive;
       font-weight: 600;
-      font-style: italic;
       color: #FFFFFF; }
     .welcome-view .top-content .app-tagline {
       font-size: 16px;
@@ -11274,15 +11273,14 @@ ion-spinner.spinner-on-load {
     .welcome-view .bottom-content .dont-have-facebook,
     .welcome-view .bottom-content .create-account,
     .welcome-view .bottom-content .have-account {
-      margin-bottom: 20px; }
+      margin-bottom: 5px; }
     .welcome-view .bottom-content .facebook-sign-in {
       color: rgba(255, 255, 255, 0.9);
-      background-color: rgba(41, 72, 134, 0.98);
-      border-color: rgba(40, 70, 130, 0.9); }
+      background-color: background: #971109 !important;
+background: #971109; }
     .welcome-view .bottom-content .create-account {
-      color: rgba(255, 255, 255, 0.9);
-      background-color: rgba(255, 187, 0, 0.98);
-      border-color: rgba(250, 183, 0, 0.9); }
+      background-color: rgba(230, 230, 230, 0.6);
+       }
     .welcome-view .bottom-content .dont-have-facebook,
     .welcome-view .bottom-content .have-account {
       color: rgba(230, 230, 230, 0.8);

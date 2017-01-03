@@ -257,7 +257,7 @@ angular.module('buddytracker', [
   //AUTH ROUTES
   .state('facebook-sign-in', {
     url: "/facebook-sign-in",
-    templateUrl: "views/auth/facebook-sign-in.html",
+    templateUrl: "views/auth/loginscreen.html",
     controller: 'WelcomeCtrl'
   })
 
