@@ -540,8 +540,8 @@
 .ion-ios-volume-low:before,
 .ion-ios-wineglass:before,
 .ion-ios-wineglass-outline:before,
-.ion-ios-world:before,
-.ion-ios-world-outline:before,
+.ion-ios-hiking:before,
+.ion-ios-hiking-outline:before,
 .ion-ipad:before,
 .ion-iphone:before,
 .ion-ipod:before,
@@ -2329,10 +2329,10 @@
 .ion-ios-wineglass-outline:before {
   content: ""; }
 
-.ion-ios-world:before {
+.ion-ios-hiking:before {
   content: ""; }
 
-.ion-ios-world-outline:before {
+.ion-ios-hiking-outline:before {
   content: ""; }
 
 .ion-ipad:before {
@@ -10018,7 +10018,7 @@ ion-spinner.spinner-on-load {
     border-color: #ef473a;
     background-color: rgba(243, 115, 105, 0.7);
     color: #FFFFFF; }
-  .post-category.entertainment {
+  .post-category.climbing {
     border-color: #886aea;
     background-color: rgba(172, 151, 240, 0.7);
     color: #FFFFFF; }
@@ -10026,11 +10026,11 @@ ion-spinner.spinner-on-load {
     border-color: #33cd5f;
     background-color: rgba(92, 215, 127, 0.7);
     color: #FFFFFF; }
-  .post-category.business {
+  .post-category.biking {
     border-color: #ffc900;
     background-color: rgba(255, 212, 51, 0.7);
     color: #FFFFFF; }
-  .post-category.world {
+  .post-category.hiking {
     border-color: #804515;
     background-color: rgba(172, 93, 28, 0.7);
     color: #FFFFFF; }

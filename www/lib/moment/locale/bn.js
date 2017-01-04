@@ -86,7 +86,7 @@
             return /^(দুপুর|বিকেল|রাত)$/.test(input);
         },
         //Bengali is a vast language its spoken
-        //in different forms in various parts of the world.
+        //in different forms in various parts of the hiking.
         //I have just generalized with most common one used
         meridiem : function (hour, minute, isLower) {
             if (hour < 4) {

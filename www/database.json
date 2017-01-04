@@ -203,21 +203,21 @@
   "possible_categories": [
     "sports",
     "skiing",
-    "world",
-    "entertainment",
+    "hiking",
+    "climbing",
     "politics",
     "kayaking"
   ],
   "trends": [
     {
       "id": 0,
-      "name": "Oscars",
-      "slug": "oscars",
-      "image": "img/images/trends/oscars.jpg"
+      "name": "kayaking",
+      "slug": "kayaking",
+      "image": "img/images/trends/kayaking.jpg"
     },
     {
       "id": 1,
-      "name": "US Open",
+      "name": "skiing",
       "slug": "us-open",
       "image": "img/images/trends/us-open.jpg"
     }
@@ -237,21 +237,21 @@
     },
     {
       "id": 3,
-      "name": "entertainment",
-      "slug": "entertainment",
-      "image": "img/images/categories/entertainment.jpg"
+      "name": "climbing",
+      "slug": "climbing",
+      "image": "img/images/categories/climbing.jpg"
     },
     {
       "id": 4,
-      "name": "world",
-      "slug": "world",
-      "image": "img/images/categories/world.jpg"
+      "name": "hiking",
+      "slug": "hiking",
+      "image": "img/images/categories/hiking.jpg"
     },
     {
       "id": 5,
-      "name": "business",
-      "slug": "business",
-      "image": "img/images/categories/business.jpg"
+      "name": "biking",
+      "slug": "biking",
+      "image": "img/images/categories/biking.jpg"
     },
     {
       "id": 6,
@@ -264,7 +264,7 @@
     {
       "id": 0,
       "userId": 5,
-      "title": "The Beauty Of Nature Captured In 32 Famous Designer Dresses",
+      "title": "Deep Powder day!",
       "picture": "img/images/posts/skiing/1.jpg",
       "shares": 48,
       "comments": 42,
@@ -272,9 +272,9 @@
       "liked": true,
       "trend": {
         "id": 0,
-        "name": "Oscars",
-        "slug": "oscars",
-        "image": "img/images/trends/oscars.jpg"
+        "name": "skiing",
+        "slug": "skiing",
+        "image": "img/images/trends/kayaking.jpg"
       },
       "category": {
         "id": 6,
@@ -288,23 +288,23 @@
     {
       "id": 1,
       "userId": 4,
-      "title": "Use fallen leaves to create stunning paintings",
-      "picture": "img/images/posts/art/1.jpg",
+      "title": "Climb Smith Rock",
+      "picture": "img/images/posts/climbing/1.jpg",
       "shares": 14,
       "comments": 42,
       "likes": 12,
       "liked": false,
       "trend": {
         "id": 0,
-        "name": "Oscars",
-        "slug": "oscars",
-        "image": "img/images/trends/oscars.jpg"
+        "name": "climbing",
+        "slug": "climbing",
+        "image": "img/images/trends/climbing.jpg"
       },
       "category": {
         "id": 7,
-        "name": "art",
-        "slug": "art",
-        "image": "img/images/categories/art.jpg"
+        "name": "climbing",
+        "slug": "climbing",
+        "image": "img/images/categories/climbing.jpg"
       },
       "date": 1453265213217,
       "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
@@ -312,17 +312,17 @@
     {
       "id": 2,
       "userId": 0,
-      "title": "11 Probiotic Foods to Help Aid in Digestion",
-      "picture": "img/images/posts/news/1.jpg",
+      "title": "Bluebird Day on Glory!",
+      "picture": "img/images/posts/skiing/5.jpg",
       "shares": 41,
       "comments": 28,
       "likes": 61,
       "liked": true,
       "trend": {
         "id": 1,
-        "name": "US Open",
-        "slug": "us-open",
-        "image": "img/images/trends/us-open.jpg"
+        "name": "skiing",
+        "slug": "skiing",
+        "image": "img/images/posts/skiing/5.jpg"
       },
       "category": {
         "id": 8,
@@ -336,23 +336,23 @@
     {
       "id": 3,
       "userId": 3,
-      "title": "Stocks Climb With Emerging Markets as China Calms Global Unease",
-      "picture": "img/images/posts/business/2.jpg",
+      "title": "Mtn Bike Trail down Lythium is clear!",
+      "picture": "img/images/posts/biking/2.jpg",
       "shares": 6,
       "comments": 12,
       "likes": 4,
       "liked": true,
       "trend": {
         "id": 1,
-        "name": "US Open",
-        "slug": "us-open",
-        "image": "img/images/trends/us-open.jpg"
+        "name": "biking",
+        "slug": "biking",
+        "image": "img/images/trends/biking.jpg"
       },
       "category": {
         "id": 5,
-        "name": "business",
-        "slug": "business",
-        "image": "img/images/categories/business.jpg"
+        "name": "biking",
+        "slug": "biking",
+        "image": "img/images/categories/biking.jpg"
       },
       "date": 1452019949870,
       "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
@@ -360,23 +360,23 @@
     {
       "id": 4,
       "userId": 0,
-      "title": "How To Make a Cheese Platter For Entertaining",
-      "picture": "img/images/posts/entertainment/4.jpg",
+      "title": "Climbing in Arizona",
+      "picture": "img/images/posts/climbing/4.jpg",
       "shares": 29,
       "comments": 41,
       "likes": 62,
       "liked": true,
       "trend": {
         "id": 0,
-        "name": "Oscars",
-        "slug": "oscars",
-        "image": "img/images/trends/oscars.jpg"
+        "name": "kayaking",
+        "slug": "kayaking",
+        "image": "img/images/trends/climbing.jpg"
       },
       "category": {
         "id": 3,
-        "name": "entertainment",
-        "slug": "entertainment",
-        "image": "img/images/categories/entertainment.jpg"
+        "name": "climbing",
+        "slug": "climbing",
+        "image": "img/images/categories/climbing.jpg"
       },
       "date": 1452785381678,
       "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
@@ -384,23 +384,23 @@
     {
       "id": 5,
       "userId": 2,
-      "title": "All The Red Carpet Looks From The 2016 Academy Awards",
-      "picture": "img/images/posts/entertainment/3.jpg",
+      "title": "Smith Rock is Poppin",
+      "picture": "img/images/posts/climbing/3.jpg",
       "shares": 7,
       "comments": 6,
       "likes": 52,
       "liked": true,
       "trend": {
         "id": 0,
-        "name": "Oscars",
-        "slug": "oscars",
-        "image": "img/images/trends/oscars.jpg"
+        "name": "climbing",
+        "slug": "climbing",
+        "image": "img/images/trends/climbing.jpg"
       },
       "category": {
         "id": 3,
-        "name": "entertainment",
-        "slug": "entertainment",
-        "image": "img/images/categories/entertainment.jpg"
+        "name": "climbing",
+        "slug": "climbing",
+        "image": "img/images/categories/climbing.jpg"
       },
       "date": 1453076661524,
       "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
@@ -408,7 +408,7 @@
     {
       "id": 6,
       "userId": 4,
-      "title": "The 55 Best Oscars Beauty Looks of the Past Decade",
+      "title": "Backcountry Champaigne",
       "picture": "img/images/posts/skiing/3.jpg",
       "shares": 47,
       "comments": 5,
@@ -416,9 +416,9 @@
       "liked": false,
       "trend": {
         "id": 0,
-        "name": "Oscars",
-        "slug": "oscars",
-        "image": "img/images/trends/oscars.jpg"
+        "name": "skiing",
+        "slug": "skiing",
+        "image": "img/images/trends/skiing.jpg"
       },
       "category": {
         "id": 6,
@@ -432,23 +432,23 @@
     {
       "id": 7,
       "userId": 2,
-      "title": "Places Where You Can Get a Job and Afford a House",
-      "picture": "img/images/posts/business/1.jpg",
+      "title": "Mtn Bike Parallel",
+      "picture": "img/images/posts/biking/1.jpg",
       "shares": 10,
       "comments": 2,
       "likes": 72,
       "liked": false,
       "trend": {
         "id": 0,
-        "name": "Oscars",
-        "slug": "oscars",
-        "image": "img/images/trends/oscars.jpg"
+        "name": "biking",
+        "slug": "biking",
+        "image": "img/images/trends/biking.jpg"
       },
       "category": {
         "id": 5,
-        "name": "business",
-        "slug": "business",
-        "image": "img/images/categories/business.jpg"
+        "name": "biking",
+        "slug": "biking",
+        "image": "img/images/categories/biking.jpg"
       },
       "date": 1452234467749,
       "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
@@ -456,23 +456,23 @@
     {
       "id": 8,
       "userId": 4,
-      "title": "17 Phenomenal Pictures Of Space That Will Fill You With Awe",
-      "picture": "img/images/posts/world/2.jpg",
+      "title": "Hiking in Sanitas",
+      "picture": "img/images/posts/hiking/2.jpg",
       "shares": 3,
       "comments": 7,
       "likes": 11,
       "liked": false,
       "trend": {
         "id": 0,
-        "name": "Oscars",
-        "slug": "oscars",
-        "image": "img/images/trends/oscars.jpg"
+        "name": "hiking",
+        "slug": "hiking",
+        "image": "img/images/trends/kayaking.jpg"
       },
       "category": {
         "id": 4,
-        "name": "world",
-        "slug": "world",
-        "image": "img/images/categories/world.jpg"
+        "name": "hiking",
+        "slug": "hiking",
+        "image": "img/images/categories/hiking.jpg"
       },
       "date": 1452398916909,
       "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
@@ -480,23 +480,23 @@
     {
       "id": 9,
       "userId": 3,
-      "title": "This Guy DEFINES Amazing",
-      "picture": "img/images/posts/entertainment/2.jpg",
+      "title": "Amazing day out there!",
+      "picture": "img/images/posts/climbing/2.jpg",
       "shares": 19,
       "comments": 18,
       "likes": 7,
       "liked": false,
       "trend": {
         "id": 0,
-        "name": "Oscars",
-        "slug": "oscars",
-        "image": "img/images/trends/oscars.jpg"
+        "name": "climbing",
+        "slug": "climbing",
+        "image": "img/images/trends/kayaking.jpg"
       },
       "category": {
         "id": 3,
-        "name": "entertainment",
-        "slug": "entertainment",
-        "image": "img/images/categories/entertainment.jpg"
+        "name": "climbing",
+        "slug": "climbing",
+        "image": "img/images/categories/climbing.jpg"
       },
       "date": 1451624958606,
       "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
@@ -504,7 +504,7 @@
     {
       "id": 10,
       "userId": 2,
-      "title": "Holi Smart Mood Lamp",
+      "title": "Glassy Water",
       "picture": "img/images/posts/kayaking/3.jpg",
       "shares": 35,
       "comments": 45,
@@ -512,9 +512,9 @@
       "liked": true,
       "trend": {
         "id": 0,
-        "name": "Oscars",
-        "slug": "oscars",
-        "image": "img/images/trends/oscars.jpg"
+        "name": "kayaking",
+        "slug": "kayaking",
+        "image": "img/images/trends/2.jpg"
       },
       "category": {
         "id": 1,
@@ -528,23 +528,23 @@
     {
       "id": 11,
       "userId": 0,
-      "title": "It Sure Looks Like Odell Beckham Jr. Made That Catch With Three Fingers",
-      "picture": "img/images/posts/sports/1.jpg",
+      "title": "10 inches last night in Jackson Hole",
+      "picture": "img/images/posts/skiing/1.jpg",
       "shares": 10,
       "comments": 29,
       "likes": 45,
       "liked": true,
       "trend": {
         "id": 1,
-        "name": "US Open",
-        "slug": "us-open",
-        "image": "img/images/trends/us-open.jpg"
+        "name": "10 inches in JS",
+        "slug": "10 inches in JS",
+        "image": "img/images/trends/1.jpg"
       },
       "category": {
         "id": 2,
-        "name": "sports",
-        "slug": "sports",
-        "image": "img/images/categories/sports.jpg"
+        "name": "skiing",
+        "slug": "skiing",
+        "image": "img/images/categories/1.jpg"
       },
       "date": 1452947336538,
       "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
@@ -552,7 +552,7 @@
     {
       "id": 12,
       "userId": 4,
-      "title": "These Tiny Batteries Are the Most Portable Phone Chargers Yet",
+      "title": "I need a kayaking buddy on Jan 5",
       "picture": "img/images/posts/kayaking/2.jpg",
       "shares": 24,
       "comments": 4,
@@ -560,9 +560,9 @@
       "liked": true,
       "trend": {
         "id": 0,
-        "name": "Oscars",
-        "slug": "oscars",
-        "image": "img/images/trends/oscars.jpg"
+        "name": "kayaking",
+        "slug": "kayaking",
+        "image": "img/images/trends/kayaking.jpg"
       },
       "category": {
         "id": 1,
@@ -576,23 +576,23 @@
     {
       "id": 13,
       "userId": 1,
-      "title": "Serena Williams wins her sixth US Open",
-      "picture": "img/images/posts/sports/2.jpg",
+      "title": "TuckerDog Gets Pitted",
+      "picture": "img/images/posts/skiing/3.jpg",
       "shares": 3,
       "comments": 44,
       "likes": 36,
       "liked": false,
       "trend": {
         "id": 1,
-        "name": "US Open",
-        "slug": "us-open",
-        "image": "img/images/trends/us-open.jpg"
+        "name": "skiing",
+        "slug": "skiing",
+        "image": "img/images/trends/3.jpg"
       },
       "category": {
         "id": 2,
-        "name": "sports",
-        "slug": "sports",
-        "image": "img/images/categories/sports.jpg"
+        "name": "skiing",
+        "slug": "skiing",
+        "image": "img/images/trends/3.jpg"
       },
       "date": 1452554444004,
       "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
@@ -600,23 +600,23 @@
     {
       "id": 14,
       "userId": 1,
-      "title": "Academy Awards 2015 Red Carpet Arrivals",
-      "picture": "img/images/posts/entertainment/1.jpg",
+      "title": "Who wants to climb tomorrow?",
+      "picture": "img/images/posts/climbing/1.jpg",
       "shares": 31,
       "comments": 36,
       "likes": 80,
       "liked": true,
       "trend": {
         "id": 0,
-        "name": "Oscars",
-        "slug": "oscars",
-        "image": "img/images/trends/oscars.jpg"
+        "name": "climbing",
+        "slug": "climbing",
+        "image": "img/images/trends/climbing.jpg"
       },
       "category": {
         "id": 3,
-        "name": "entertainment",
-        "slug": "entertainment",
-        "image": "img/images/categories/entertainment.jpg"
+        "name": "climbing",
+        "slug": "climbing",
+        "image": "img/images/categories/climbing.jpg"
       },
       "date": 1452878805958,
       "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
@@ -624,23 +624,23 @@
     {
       "id": 15,
       "userId": 1,
-      "title": "Incredible Contrast Between Two Worlds: The City Vs. Central Park",
-      "picture": "img/images/posts/world/1.jpg",
+      "title": "Incredible Contrast Between Two hikings: The City Vs. Central Park",
+      "picture": "img/images/posts/hiking/1.jpg",
       "shares": 47,
       "comments": 19,
       "likes": 81,
       "liked": false,
       "trend": {
         "id": 0,
-        "name": "Oscars",
-        "slug": "oscars",
-        "image": "img/images/trends/oscars.jpg"
+        "name": "kayaking",
+        "slug": "kayaking",
+        "image": "img/images/trends/kayaking.jpg"
       },
       "category": {
         "id": 4,
-        "name": "world",
-        "slug": "world",
-        "image": "img/images/categories/world.jpg"
+        "name": "hiking",
+        "slug": "hiking",
+        "image": "img/images/categories/hiking.jpg"
       },
       "date": 1452719307571,
       "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
@@ -648,7 +648,7 @@
     {
       "id": 16,
       "userId": 2,
-      "title": "A 'Post Modern Skateboard' That Ditches The Board",
+      "title": "Going to Mirror Lake",
       "picture": "img/images/posts/kayaking/1.jpg",
       "shares": 9,
       "comments": 27,
@@ -656,9 +656,9 @@
       "liked": true,
       "trend": {
         "id": 1,
-        "name": "US Open",
-        "slug": "us-open",
-        "image": "img/images/trends/us-open.jpg"
+        "name": "kayaking",
+        "slug": "kayaking",
+        "image": "img/images/trends/2.jpg"
       },
       "category": {
         "id": 1,
@@ -672,7 +672,7 @@
     {
       "id": 17,
       "userId": 3,
-      "title": "Polished Punk skiing",
+      "title": "Sunset Glory Hike in JH",
       "picture": "img/images/posts/skiing/2.jpg",
       "shares": 24,
       "comments": 44,
@@ -680,9 +680,9 @@
       "liked": true,
       "trend": {
         "id": 0,
-        "name": "Oscars",
-        "slug": "oscars",
-        "image": "img/images/trends/oscars.jpg"
+        "name": "skiing",
+        "slug": "skiing",
+        "image": "img/images/trends/skiing.jpg"
       },
       "category": {
         "id": 6,

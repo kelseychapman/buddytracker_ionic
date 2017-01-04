@@ -553,8 +553,8 @@
 .ion-ios-volume-low:before,
 .ion-ios-wineglass:before,
 .ion-ios-wineglass-outline:before,
-.ion-ios-world:before,
-.ion-ios-world-outline:before,
+.ion-ios-hiking:before,
+.ion-ios-hiking-outline:before,
 .ion-ipad:before,
 .ion-iphone:before,
 .ion-ipod:before,
@@ -2342,10 +2342,10 @@
 .ion-ios-wineglass-outline:before {
   content: ""; }
 
-.ion-ios-world:before {
+.ion-ios-hiking:before {
   content: ""; }
 
-.ion-ios-world-outline:before {
+.ion-ios-hiking-outline:before {
   content: ""; }
 
 .ion-ipad:before {

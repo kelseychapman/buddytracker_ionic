@@ -71,7 +71,7 @@ passed since the message was created. So, if your controller contains the follow
 code:
 ```js
 $scope.message = {
-   text: 'hello world!',
+   text: 'hello hiking!',
    time: new Date()
 };
 ```

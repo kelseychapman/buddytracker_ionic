@@ -14932,7 +14932,7 @@ function getNgAttribute(element, ngAttr) {
      }])
      .controller('GoodController2', GoodController2);
      function GoodController2($scope) {
-       $scope.name = "World";
+       $scope.name = "hiking";
      }
      GoodController2.$inject = ['$scope'];
    </file>
@@ -26661,7 +26661,7 @@ function $LocationProvider() {
        angular.module('logExample', [])
          .controller('LogController', ['$scope', '$log', function($scope, $log) {
            $scope.$log = $log;
-           $scope.message = 'Hello World!';
+           $scope.message = 'Hello hiking!';
          }]);
      </file>
      <file name="index.html">
@@ -32481,7 +32481,7 @@ function urlIsSameOrigin(requestUrl) {
        <script>
          angular.module('windowExample', [])
            .controller('ExampleController', ['$scope', '$window', function($scope, $window) {
-             $scope.greeting = 'Hello, World!';
+             $scope.greeting = 'Hello, hiking!';
              $scope.doGreeting = function(greeting) {
                $window.alert(greeting);
              };
@@ -35271,7 +35271,7 @@ var inputType = {
 
           it('should be invalid if multi word', function() {
             input.clear();
-            input.sendKeys('hello world');
+            input.sendKeys('hello hiking');
 
             expect(valid.getText()).toContain('false');
           });
@@ -36984,8 +36984,8 @@ var ngValueDirective = function() {
 
          expect(element(by.binding('name')).getText()).toBe('Whirled');
          nameInput.clear();
-         nameInput.sendKeys('world');
-         expect(element(by.binding('name')).getText()).toBe('world');
+         nameInput.sendKeys('hiking');
+         expect(element(by.binding('name')).getText()).toBe('hiking');
        });
      </file>
    </example>
@@ -37031,7 +37031,7 @@ var ngBindDirective = ['$compile', function($compile) {
          angular.module('bindExample', [])
            .controller('ExampleController', ['$scope', function($scope) {
              $scope.salutation = 'Hello';
-             $scope.name = 'World';
+             $scope.name = 'hiking';
            }]);
        </script>
        <div ng-controller="ExampleController">
@@ -37046,7 +37046,7 @@ var ngBindDirective = ['$compile', function($compile) {
          var salutationInput = element(by.model('salutation'));
          var nameInput = element(by.model('name'));
 
-         expect(salutationElem.getText()).toBe('Hello World!');
+         expect(salutationElem.getText()).toBe('Hello hiking!');
 
          salutationInput.clear();
          salutationInput.sendKeys('Greetings');
@@ -37656,7 +37656,7 @@ var ngClassEvenDirective = classDirective('Even', 1);
    <example>
      <file name="index.html">
         <div id="template1" ng-cloak>{{ 'hello' }}</div>
-        <div id="template2" class="ng-cloak">{{ 'world' }}</div>
+        <div id="template2" class="ng-cloak">{{ 'hiking' }}</div>
      </file>
      <file name="protractor.js" type="protractor">
        it('should remove the template directive and css class', function() {
@@ -37689,7 +37689,7 @@ var ngCloakDirective = ngDirective({
  * * Model — Models are the properties of a scope; scopes are attached to the DOM where scope properties
  *   are accessed through bindings.
  * * View — The template (HTML with data bindings) that is rendered into the View.
- * * Controller — The `ngController` directive specifies a Controller class; the class contains business
+ * * Controller — The `ngController` directive specifies a Controller class; the class contains biking
  *   logic behind the application to decorate the scope with functions and values
  *
  * Note that you can also attach controllers to the DOM by declaring it in a route definition
