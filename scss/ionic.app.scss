@@ -1,8 +1,8 @@
 // Include Sass mixins
 @import "scss/utils/mixins";
 
-// Include Theme variables
-@import "scss/common/theme.variables";
+// Include buddytracker variables
+@import "scss/common/buddytracker.variables";
 // Include Ionic override variables
 @import "scss/utils/override_variables";
 
@@ -10,8 +10,8 @@
 @import "www/lib/bourbon/app/assets/stylesheets/_bourbon";
 // Include all of Ionic
 @import "www/lib/ionic/scss/ionic";
-// Theme 3 icons
-@import "www/lib/theme-3-icons/scss/theme-3-icons";
+// buddytracker 3 icons
+@import "www/lib/buddytracker-3-icons/scss/buddytracker-3-icons";
 
 // Include Ionic override styles
 @import "scss/utils/override_styles";

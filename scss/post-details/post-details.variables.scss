@@ -1,18 +1,18 @@
 // Post Details
-$post-details-bg: $theme-color-1;
-$post-details-color: $theme-color-2;
-$post-details-active-color: $theme-color-3;
+$post-details-bg: $buddytracker-color-1;
+$post-details-color: $buddytracker-color-2;
+$post-details-active-color: $buddytracker-color-3;
 
-$post-details-divider-bg: $theme-color-1-b;
-$post-details-divider-color: $theme-color-2;
+$post-details-divider-bg: $buddytracker-color-1-b;
+$post-details-divider-color: $buddytracker-color-2;
 
-$post-details-trend-button-bg:               $theme-color-7;
-$post-details-trend-button-text:             $theme-color-1;
+$post-details-trend-button-bg:               $buddytracker-color-7;
+$post-details-trend-button-text:             $buddytracker-color-1;
 $post-details-trend-button-border:           darken($post-details-trend-button-bg, 10%);
 $post-details-trend-button-active-bg:        darken($post-details-trend-button-bg, 10%);
 $post-details-trend-button-active-border:    darken($post-details-trend-button-bg, 10%);
 
 $post-details-padding: 10px;
 
-$post-details-footer-bg: $theme-color-1-b;
-$post-details-footer-color: $theme-color-2-d;
+$post-details-footer-bg: $buddytracker-color-1-b;
+$post-details-footer-color: $buddytracker-color-2-d;

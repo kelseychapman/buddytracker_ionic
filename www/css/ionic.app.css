@@ -3577,9 +3577,9 @@ cite {
 
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
-  color: #000;
-  font-weight: 500;
-  font-family: "-apple-system", "Helvetica Neue", "Roboto", "Segoe UI", sans-serif;
+  color: #fff;
+  font-weight: 600;
+font-family: 'Pompiere', cursive;
   line-height: 1.2; }
   h1 small, h2 small, h3 small, h4 small, h5 small, h6 small,
   .h1 small, .h2 small, .h3 small, .h4 small, .h5 small, .h6 small {
@@ -3625,7 +3625,7 @@ h6, .h6 {
   margin-bottom: 10px; }
 
 h1, .h1 {
-  font-size: 36px; }
+  font-size: 48px; }
 
 h2, .h2 {
   font-size: 30px; }
@@ -9472,7 +9472,7 @@ a.button {
  * --------------------------------------------------
  * Utility colors are added to help set a naming convention. You'll
  * notice we purposely do not use words like "red" or "blue", but
- * instead have colors which represent an emotion or generic theme.
+ * instead have colors which represent an emotion or generic buddytracker.
  */
 .light, a.light {
   color: #fff; }
@@ -9801,14 +9801,14 @@ a.button {
 
 /* FONTS */
 @font-face {
-  font-family: 'Theme-3';
-  src: url("../fonts/Theme-3.ttf?xlfw6x") format("truetype"), url("../fonts/Theme-3.woff?xlfw6x") format("woff"), url("../fonts/Theme-3.svg?xlfw6x#Theme-3") format("svg");
+  font-family: 'buddytracker-3';
+  src: url("../fonts/buddytracker-3.ttf?xlfw6x") format("truetype"), url("../fonts/buddytracker-3.woff?xlfw6x") format("woff"), url("../fonts/buddytracker-3.svg?xlfw6x#buddytracker-3") format("svg");
   font-weight: normal;
   font-style: normal; }
 
-.theme-icon {
+.buddytracker-icon {
   /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: 'Theme-3' !important;
+  font-family: 'buddytracker-3' !important;
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -10725,10 +10725,10 @@ ion-spinner.spinner-on-load {
         font-size: 20px; }
       .feed-view .card-1 .item.tabs .tab-item .icon {
         margin-top: -4px; }
-        .feed-view .card-1 .item.tabs .tab-item .icon.theme-icon {
+        .feed-view .card-1 .item.tabs .tab-item .icon.buddytracker-icon {
           margin-top: 0px;
           height: 100%; }
-          .feed-view .card-1 .item.tabs .tab-item .icon.theme-icon::before {
+          .feed-view .card-1 .item.tabs .tab-item .icon.buddytracker-icon::before {
             line-height: 35px;
             vertical-align: bottom; }
   .feed-view .card-1 .item.tabs {
@@ -10783,10 +10783,10 @@ ion-spinner.spinner-on-load {
         font-size: 20px; }
       .card.new-post .item.tabs .tab-item .icon {
         margin-top: -4px; }
-        .card.new-post .item.tabs .tab-item .icon.theme-icon {
+        .card.new-post .item.tabs .tab-item .icon.buddytracker-icon {
           margin-top: 0px;
           height: 100%; }
-          .card.new-post .item.tabs .tab-item .icon.theme-icon::before {
+          .card.new-post .item.tabs .tab-item .icon.buddytracker-icon::before {
             line-height: 35px;
             vertical-align: bottom; }
   .card.new-post .item.tabs {
@@ -11252,7 +11252,7 @@ ion-spinner.spinner-on-load {
     .welcome-view .top-content .app-copy {
       text-align: center;
       padding-top: 20vh; }
-    .welcome-view .top-content .app-logo {
+    .welcome-view .top-content .Buddy Tracker {
       font-size: 50px;
       font-family: 'Pompiere', cursive;
       font-weight: 600;

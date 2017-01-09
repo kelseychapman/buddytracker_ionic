@@ -321,7 +321,7 @@ angular.module('buddytracker.app.controllers', [])
         console.log("Is available");
         $cordovaEmailComposer.open({
           to: 'hi@startapplabs.com',
-          subject: 'Nice Theme!',
+          subject: 'Nice buddytracker!',
           body: 'How are you? Nice greetings from Social App'
         }).then(null, function () {
           // user cancelled email
@@ -344,7 +344,7 @@ angular.module('buddytracker.app.controllers', [])
 			AppRate.promptForRating(true);
 		}else if(ionic.Platform.isAndroid()){
 
-			AppRate.preferences.storeAppURL.android = 'market://details?id=ionTheme3';
+			AppRate.preferences.storeAppURL.android = 'market://details?id=ionbuddytracker3';
 			AppRate.promptForRating(true);
 		}
 	};
