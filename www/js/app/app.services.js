@@ -108,7 +108,7 @@ angular.module('buddytracker.app.services', [])
 
   this.getFeed = function(page){
 
-    var pageSize = 5, // set your page size, which is number of records per page
+    var pageSize = 5, // set your page size
         skip = pageSize * (page-1),
         totalPosts = 1,
         totalPages = 1,
@@ -140,7 +140,7 @@ angular.module('buddytracker.app.services', [])
 
   this.getFeedByCategory = function(page, categoryId){
 
-    var pageSize = 5, // set your page size, which is number of records per page
+    var pageSize = 5, // set your page size,
         skip = pageSize * (page-1),
         totalPosts = 1,
         totalPages = 1,
@@ -176,7 +176,7 @@ angular.module('buddytracker.app.services', [])
 
   this.getFeedByTrend = function(page, trendId){
 
-    var pageSize = 5, // set your page size, which is number of records per page
+    var pageSize = 5, // set your page size
         skip = pageSize * (page-1),
         totalPosts = 1,
         totalPages = 1,

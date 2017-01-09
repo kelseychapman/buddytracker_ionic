@@ -12,7 +12,7 @@ angular.module('buddytracker.common.directives', [])
 			var utils = this;
 
 			this.animateBg = function(){
-				// Think i have to use apply because this function is not called from this controller ($scope)
+				// i think have to use apply because this function is not called from this controller ($scope)
 				$scope.$apply(function () {
 					$scope.loaded = true;
 					$element.css({'background-image': 'url(' + $scope.bg_img + ')'});
@@ -27,12 +27,12 @@ angular.module('buddytracker.common.directives', [])
 			{
 				if(_.isArray($scope.multiBg) && ($scope.multiBg.length > 1) && !_.isUndefined($scope.interval) && _.isNumber($scope.interval))
 				{
-					// Then we need to loop through the bg images
+					// Then this will loop through the bg images
 					utils.setBackground($scope.multiBg[0]);
 				}
 				else
 				{
-					// Then just set the multiBg image as background image
+					// sets the multiBg image as background image
 					utils.setBackground($scope.multiBg[0]);
 				}
 			}
