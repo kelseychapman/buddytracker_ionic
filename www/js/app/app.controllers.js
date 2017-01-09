@@ -17,14 +17,12 @@ angular.module('buddytracker.app.controllers', [])
   $scope.user.pictures = pictures;
 
   $scope.getUserPics = function(){
-    //we need to do this in order to prevent the back to change
     $ionicHistory.currentView($ionicHistory.backView());
     $ionicHistory.nextViewOptions({ disableAnimate: true });
     $state.go('app.profile.pics', {userId: user.id});
   };
 
   $scope.getUserPosts = function(){
-    //we need to do this in order to prevent the back to change
     $ionicHistory.currentView($ionicHistory.backView());
     $ionicHistory.nextViewOptions({ disableAnimate: true });
     $state.go('app.profile.posts', {userId: user.id});
@@ -54,7 +52,7 @@ angular.module('buddytracker.app.controllers', [])
     });
   };
 
-  //CLICK IN USER NAME
+
   $scope.navigateToUserProfile = function(user){
     commentsPopup.close();
     $state.go('app.profile.posts', {userId: user.id});
@@ -93,8 +91,7 @@ angular.module('buddytracker.app.controllers', [])
   };
 
   $scope.openImagePicker = function(){
-    //We use image picker plugin: http://ngcordova.com/docs/plugins/imagePicker/
-    //implemented for iOS and Android 4.0 and above.
+
 
     $ionicPlatform.ready(function() {
       $cordovaImagePicker.getPictures()
@@ -150,7 +147,7 @@ angular.module('buddytracker.app.controllers', [])
 
   };
 
-  //Cleanup the modal when we're done with it!
+
   $scope.$on('$destroy', function() {
     $scope.new_status_post_modal.remove();
   });
@@ -161,7 +158,7 @@ angular.module('buddytracker.app.controllers', [])
     });
     console.log('Posting status', $scope.status_post);
 
-    // Simulate a posting delay. Remove this and replace with your posting code
+
     $timeout(function() {
       $ionicLoading.hide();
       $scope.closeStatusPost();
@@ -177,13 +174,13 @@ angular.module('buddytracker.app.controllers', [])
   $scope.page = 1;// Default page is 1
   $scope.totalPages = feed.totalPages;
 
-  // Check if we are loading posts from one category or trend
+  // Check if we are loading posts from category
   var categoryId = $stateParams.categoryId;
 
   $scope.is_category_feed = true;
 
   $scope.getNewData = function() {
-    // Do something to load your new data here
+  //loading data
     $scope.$broadcast('scroll.refreshComplete');
   };
 
@@ -194,7 +191,6 @@ angular.module('buddytracker.app.controllers', [])
     // get category feed
     FeedService.getFeedByCategory($scope.page, categoryId)
     .then(function(data){
-      //We will update this value in every request because new posts can be created
       $scope.totalPages = data.totalPages;
       $scope.cards = $scope.cards.concat(data.posts);
 
@@ -221,7 +217,6 @@ angular.module('buddytracker.app.controllers', [])
   $scope.is_trend_feed = true;
 
   $scope.getNewData = function() {
-    // Do something to load your new data here
     $scope.$broadcast('scroll.refreshComplete');
   };
 
@@ -232,7 +227,6 @@ angular.module('buddytracker.app.controllers', [])
     // get trend feed
     FeedService.getFeedByTrend($scope.page, trendId)
     .then(function(data){
-      //We will update this value in every request because new posts can be created
       $scope.totalPages = data.totalPages;
       $scope.cards = $scope.cards.concat(data.posts);
 
@@ -255,17 +249,15 @@ angular.module('buddytracker.app.controllers', [])
   $scope.is_trend_feed = false;
 
   $scope.getNewData = function() {
-    // Do something to load your new data here
     $scope.$broadcast('scroll.refreshComplete');
   };
 
   $scope.loadMoreData = function(){
     $scope.page += 1;
 
-    // get generic feed
+    // get feed
     FeedService.getFeed($scope.page)
     .then(function(data){
-      //We will update this value in every request because new posts can be created
       $scope.totalPages = data.totalPages;
       $scope.cards = $scope.cards.concat(data.posts);
 
@@ -292,7 +284,7 @@ angular.module('buddytracker.app.controllers', [])
   // Form data for the login modal
   $scope.loginData = {};
 
-  // Create the login modal that we will use later
+  // Create the login modal
   $ionicModal.fromTemplateUrl('views/login.html', {
     scope: $scope
   }).then(function(modal) {
@@ -313,8 +305,7 @@ angular.module('buddytracker.app.controllers', [])
   $scope.doLogin = function() {
     console.log('Doing login', $scope.loginData);
 
-    // Simulate a login delay. Remove this and replace with your login
-    // code if using a login system
+    // login delay.
     $timeout(function() {
       $scope.closeLogin();
     }, 1000);
@@ -322,7 +313,7 @@ angular.module('buddytracker.app.controllers', [])
 })
 
 .controller('EmailComposerCtrl', function($scope, $cordovaEmailComposer, $ionicPlatform) {
-  //we use email composer cordova plugin, see the documentation for mor options: http://ngcordova.com/docs/plugins/emailComposer/
+  //email composer cordova plugin
   $scope.sendMail = function(){
     $ionicPlatform.ready(function() {
       $cordovaEmailComposer.isAvailable().then(function() {
@@ -348,11 +339,11 @@ angular.module('buddytracker.app.controllers', [])
 .controller('AppRateCtrl', function($scope) {
 	$scope.appRate = function(){
 		if(ionic.Platform.isIOS()){
-			//you need to set your own ios app id
+
 			AppRate.preferences.storeAppURL.ios = '1234555553>';
 			AppRate.promptForRating(true);
 		}else if(ionic.Platform.isAndroid()){
-			//you need to set your own android app id
+
 			AppRate.preferences.storeAppURL.android = 'market://details?id=ionTheme3';
 			AppRate.promptForRating(true);
 		}

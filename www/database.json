@@ -312,26 +312,26 @@
     {
       "id": 2,
       "userId": 0,
-      "title": "Bluebird Day on Glory!",
-      "picture": "img/images/posts/skiing/5.jpg",
+      "title": "presenting",
+      "picture": "img/images/posts/skiing/4.jpg",
       "shares": 41,
       "comments": 28,
       "likes": 61,
       "liked": true,
       "trend": {
         "id": 1,
-        "name": "skiing",
-        "slug": "skiing",
-        "image": "img/images/posts/skiing/5.jpg"
+        "name": "presenting",
+        "slug": "presenting",
+        "image": "img/images/post/skiing/4.jpg"
       },
       "category": {
         "id": 8,
-        "name": "news",
-        "slug": "news",
-        "image": "img/images/categories/news.jpg"
+        "name": "presenting",
+        "slug": "presenting",
+        "image": "img/images/categories/skiing.jpg"
       },
       "date": 1452733349392,
-      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+      "description": "presenting"
     },
     {
       "id": 3,
@@ -360,25 +360,25 @@
     {
       "id": 4,
       "userId": 0,
-      "title": "Climbing in Arizona",
-      "picture": "img/images/posts/climbing/4.jpg",
-      "shares": 29,
-      "comments": 41,
-      "likes": 62,
+      "title": "Bluebird Day on Glory!",
+      "picture": "img/images/posts/skiing/5.jpg",
+      "shares": 41,
+      "comments": 28,
+      "likes": 61,
       "liked": true,
       "trend": {
-        "id": 0,
-        "name": "kayaking",
-        "slug": "kayaking",
-        "image": "img/images/trends/climbing.jpg"
+        "id": 1,
+        "name": "skiing",
+        "slug": "skiing",
+        "image": "img/images/postskiing/5.jpg"
       },
       "category": {
-        "id": 3,
-        "name": "climbing",
-        "slug": "climbing",
-        "image": "img/images/categories/climbing.jpg"
+        "id": 8,
+        "name": "news",
+        "slug": "news",
+        "image": "img/images/categories/news.jpg"
       },
-      "date": 1452785381678,
+      "date": 1452733349392,
       "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
     },
     {

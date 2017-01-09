@@ -1,7 +1,7 @@
 angular.module('buddytracker.app.services', [])
 
 .service('AuthService', function ($http, $q){
-  //Just for example purposes user with id=0 will represent our logged user
+
   this.getLoggedUser = function(){
     var dfd = $q.defer();
 
